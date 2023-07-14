@@ -12,8 +12,8 @@ const dsnParam = {
   },
   scrollbar: {
     duration: 1.3,
-    smooth: true,
-    smoothTouch: true,
+    smooth: false,
+    smoothTouch:false,
     mouseMultiplier: 1
   },
   name: "ALEXA"
