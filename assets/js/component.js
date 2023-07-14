@@ -9,6 +9,8 @@ class NavBar extends HTMLElement {
     // Clone the template content and attach it to the shadow root
     const template = document.createElement('template');
     template.innerHTML = `
+     <link href="assets/css/plugins.css" rel="stylesheet"/> 
+     <link rel="stylesheet" href="assets/css/style.css">
       <div id="dsn_preloader" class="preloader"> 
   
      <div class="dsnload p-absolute"> 
