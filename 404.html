@@ -1,13 +1,12 @@
 <script>
     // Get the current path
     var path = window.location.pathname;
-    
+        
     // Remove the trailing slash if present
     if (path.slice(-1) === '/') {
       path = path.slice(0, -1);
     }
-    
+                    
     // Redirect to the path without the .html extension
     window.location.replace(path + '.html');
-  </script>
-  
+</script>
