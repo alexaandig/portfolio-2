@@ -7,7 +7,7 @@ class NavBar extends HTMLElement {
     const shadowRoot = this.attachShadow({ mode: 'open' });
     
     // Load the content of the nav-bar.html file
-    fetch('dev-alexaandig/portfolio/template-parts/nav-bar.html')
+    fetch('/template-parts/nav-bar.html')
       .then(response => response.text())
       .then(html => {
         const template = document.createElement('template');
