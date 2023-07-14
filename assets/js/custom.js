@@ -16,7 +16,7 @@ const dsnParam = {
     smoothTouch: true,
     mouseMultiplier: 1
   },
-  name: "BLACKDSN"
+  name: "ALEXA"
 };
 
 (function ($) {
