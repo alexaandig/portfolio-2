@@ -7,13 +7,13 @@ const dsnParam = {
   },
   cursor: {
     run: true,
-    speed: 0.35,
+    speed: 0.25,
     speedInner: 0.15
   },
   scrollbar: {
-    duration: 1.5,
-    smooth: false,
-    smoothTouch: false,
+    duration: 1.3,
+    smooth: true,
+    smoothTouch: true,
     mouseMultiplier: 1
   },
   name: "BLACKDSN"
