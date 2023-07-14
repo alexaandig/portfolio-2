@@ -7,7 +7,7 @@ const dsnParam = {
   },
   cursor: {
     run: true,
-    speed: 0.30,
+    speed: 0.35,
     speedInner: 0.15
   },
   scrollbar: {
