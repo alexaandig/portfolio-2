@@ -2343,22 +2343,22 @@ a:focus {
 }
 [data-dsn-grid=move-up]:not(.h-v-80),
 [data-dsn-grid=moveUp]:not(.h-v-80) {
-  height: 100vh;
+  height: 75vh;
 }
 .container [data-dsn-grid=move-up],
 .container [data-dsn-grid=moveUp] {
-  height: 80vh;
+  height: 65vh;
 }
 @media only screen and (max-width: 767px) {
   [data-dsn-grid=move-up],
 [data-dsn-grid=moveUp] {
-    height: 80vh;
+    height: 65vh;
   }
 }
 @media only screen and (max-width: 575px) {
   [data-dsn-grid=move-up],
 [data-dsn-grid=moveUp] {
-    height: 60vh;
+    height: 50vh;
   }
 }
 [data-dsn-grid=move-up] img,
