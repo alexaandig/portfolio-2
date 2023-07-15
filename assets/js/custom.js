@@ -11,7 +11,7 @@ const dsnParam = {
     speedInner: 0.15
   },
   scrollbar: {
-    duration: 1.6,
+    duration: 1.5,
     smooth: false,
     smoothTouch:false,
     mouseMultiplier: 1
