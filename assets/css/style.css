@@ -360,6 +360,7 @@ body:not(.dsn-cursor-effect) #dsn_cursor, body:not(.dsn-cursor-effect) #dsn_curs
   height: 30px;
   cursor: pointer;
   text-align: center;
+  display: none;
 }
 .day-night svg {
   width: 30px;
